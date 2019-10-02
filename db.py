@@ -59,6 +59,6 @@ class RedisClient(object):
 
 if __name__ == '__main__':
     conn = RedisClient()
-    print conn.pop()
+    print(conn.pop())
 
 
