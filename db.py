@@ -2,6 +2,8 @@
 # -*- coding:utf-8 -*-
 # author: Lay Shao
 import redis
+
+from error import PoolEmptyError
 from settings import HOST, PORT, PASSWORD
 
 
